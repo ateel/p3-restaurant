@@ -20,11 +20,9 @@ section img {
 	width:80%;
 }
 
-
-
 section p {
-	width: 80%;
-  background: yellow;
+  width: 80%;
+  background: white;
   position: absolute;
   bottom: -150px;
   margin-bottom: 0px;
