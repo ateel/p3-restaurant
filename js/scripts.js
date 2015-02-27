@@ -1,1 +1,4 @@
-$('.tabular.menu .item').tab();
+$(function() {                       
+  $("#RawFish").click(function() {  
+    $("section:not(.raw)").addClass("fadey");      
+});
