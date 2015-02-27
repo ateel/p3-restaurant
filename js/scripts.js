@@ -1,22 +1,23 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
-});
+$("#RawFish").click(function () {
+ 
+	  $('.spicy').removeClass('fadeyspice');
+	  $('.veg').removeClass('fadeyveg');
+	  $('.raw').addClass('fadeyraw');
+ 
+    });
 
-$(function() {                       
-  $("#RawFish").click(function() {  
-    $("section.raw").addClass("fadey");      
-  });
-});
+$("#SpicyLink").click(function () {
+ 
+	  $('.raw').removeClass('fadeyraw');
+	  $('.veg').removeClass('fadeyveg');
+	  $('.spicy').addClass('fadeyspice');
+ 
+    });
 
-
-$(function() {                       
-  $("#SpicyLink").click(function() {  
-    $("section:not(.spicy)").addClass("fadey");      
-  });
-});
-
-$(function() {                       
-  $("#VeggieFood").click(function() {  
-    $("section:not(.veg)").addClass("fadey");      
-  });
-});
+$("#VeggieFood").click(function () {
+ 
+	  $('.raw').removeClass('fadeyraw');
+	  $('.spicy').removeClass('fadeyspice');
+	  $('.veg').addClass('fadeyveg');
+ 
+    });

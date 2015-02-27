@@ -33,11 +33,11 @@
   <!-- Pricing -->
   <h4>Pricing</h4>
 
-      <ul>
-      <li class="yellow">$1.50</li>
-      <li class="lblue">$2.25</li>
-      <li class="red">$2.75</li>
-      <li class="green">$3.50</li>
+      <ul id="pricing">
+      <li><div class="boxed yellow"></div>$1.50</li>
+      <li><div class="boxed lblue"></div>$2.25</li>
+      <li><div class="boxed red"></div>$2.75</li>
+      <li><div class="boxed green"></div>$3.50</li>
       </ul>
 
 <!-- Contact -->
@@ -55,9 +55,7 @@
 
  
       <h4>Map</h4>
-      <ul>
-        <li><a href="https://goo.gl/maps/wGXZR">Google Map of Address</a></li>
-      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192921!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1425078396703" width="350" height="450" frameborder="0" style="border:0"></iframe>
 
 <!-- End Right floated grid div -->
     </div>
@@ -69,15 +67,15 @@
 <h2>Menu</h2>
 
 <nav>
-  <a href="" id="RawFish">Raw Fish</a>
-  <a href="" id="SpicyLink">Spicy</a>
-  <a href="" id="VeggieFood">Vegetarian</a>
+   <button id="RawFish">Raw Fish</button>
+  <button id="SpicyLink">Spicy</button>
+   <button id="VeggieFood">Vegetarian</button>
 </nav>
 
 
 <div class="row">
 
-    <section class="two wide column raw">
+    <section class="column raw">
         <h3><div class="boxed yellow"></div>Spiral Ecstasy Roll</h3>
         <!-- <li>Yellow Plate</li> -->
         <!-- <li>Contains Raw Fish </li> -->
@@ -87,7 +85,7 @@
     </section>
 
 
-    <section class="two wide column raw">
+    <section class="column raw">
         <h3><div class="boxed lblue"></div>Banzai Roll</h3>
         <!-- <li>Light Blue Plate </li> -->
         <!-- <li>Contains Raw Fish </li> -->
@@ -98,7 +96,7 @@
 
  
 
-    <section class="two wide column raw">
+    <section class="column raw">
        <h3><div class="boxed red"></div>Scallop Banzai Roll</h3>
         <!-- <li>Red Plate</li> -->
         <!-- <li>Contains Raw Fish </li> -->
@@ -109,7 +107,7 @@
 
    
 
-    <section class="two wide column raw spicy">
+    <section class="column raw spicy">
         <h3><div class="boxed red"></div>Spicy Tuna Roll</h3>
         <!-- <li>Red Plate</li> -->
         <!-- <li>Contains Raw Fish, Spicy </li> -->
@@ -120,7 +118,7 @@
 
     
 
-    <section class="two wide column spicy">
+    <section class="column spicy">
         <h3><div class="boxed red"></div>Tuna Rio</h3>
         <!-- <li>Red Plate</li> -->
         <!-- <li>Spicy </li> -->
@@ -129,7 +127,7 @@
         
     </section>
 
-    <section class="two wide column spicy">
+    <section class="column spicy">
         <h3><div class="boxed green"></div>Sheila Maki</h3>
         <!-- <li>Green Plate</li> -->
         <!-- <li>Spicy</li> -->
@@ -138,7 +136,7 @@
         
     </section>
     
-    <section class="two wide column spicy">
+    <section class="column spicy">
         <h3><div class="boxed green"></div>Volcano Roll</h3>
         <!-- <li>Green Plate</li> -->
         <!-- <li>Spicy </li> -->
@@ -147,7 +145,7 @@
         
     </section>
 
-    <section class="two wide column veg">
+    <section class="column veg">
           <h3><div class="boxed yellow"></div>Edamame</h3>
           <!-- <li>Yellow Plate</li> -->
           <!-- <li>Vegetarian </li> -->
@@ -156,7 +154,7 @@
           
       </section>
 
-    <section class="two wide column veg">
+    <section class="column veg">
           <h3><div class="boxed lblue"></div>Spring Roll</h3>
           <!-- <li>Light Blue Plate</li> -->
           <!-- <li>Vegetarian </li> -->
@@ -165,7 +163,7 @@
           
       </section>
 
-    <section class="two wide column veg">
+    <section class="column veg">
           <h3><div class="boxed lblue"></div>Strawberry Roll</h3>
           
           <!-- <li>Light Blue Plate</li> -->
@@ -176,7 +174,7 @@
       </section>
 
 
-    <section class="two wide column">
+    <section class="column">
         <h3><div class="boxed yellow"></div>Big Tempura Maki</h3>
           <!-- <li>Yellow Plate </li> -->
           <p>Shrimp, crab stick, chef’s choice of fish and avocado batter fried together and wrapped in rice and nori</p>
@@ -184,7 +182,7 @@
           
       </section>
 
-      <section class="two wide column">
+      <section class="column">
           <h3><div class="boxed lblue"></div>Kanki By The Sea</h3>
           <!-- <li>Light Blue Plate </li> -->
           <p>Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce</p>

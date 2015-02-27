@@ -15,7 +15,21 @@ header {
 
 }
 
-.fadey {
+#pricing li {
+font-size: 1.5em;	
+}
+
+.fadeyraw {
+
+	background: red;
+}
+
+.fadeyspice {
+
+	background: red;
+}
+
+.fadeyveg {
 
 	background: red;
 }
