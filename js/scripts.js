@@ -1,23 +1,36 @@
 $("#RawFish").click(function () {
  
-	  $('.spicy').removeClass('fadeyspice');
-	  $('.veg').removeClass('fadeyveg');
-	  $('.raw').addClass('fadeyraw');
+	  $('.spicy').hide();
+	  $('.veg').hide();
+	  $('.allitems').hide();
+	  $('.raw').show();
  
     });
 
 $("#SpicyLink").click(function () {
  
-	  $('.raw').removeClass('fadeyraw');
-	  $('.veg').removeClass('fadeyveg');
-	  $('.spicy').addClass('fadeyspice');
+	  $('.raw').hide();
+	  $('.veg').hide();
+	  $('.allitems').hide();
+	  $('.spicy').show();
  
     });
 
 $("#VeggieFood").click(function () {
  
-	  $('.raw').removeClass('fadeyraw');
-	  $('.spicy').removeClass('fadeyspice');
-	  $('.veg').addClass('fadeyveg');
+	  $('.raw').hide();
+	  $('.spicy').hide();
+	  $('.allitems').hide();
+	  $('.veg').show();
+ 
+    });
+
+
+$("#All").click(function () {
+ 
+	  $('.raw').show();
+	  $('.spicy').show();
+	  $('.veg').show();
+	  $('.allitems').show();
  
     });
