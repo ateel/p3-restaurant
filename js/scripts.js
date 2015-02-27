@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
 $(function() {                       
   $("#RawFish").click(function() {  
-    $("section:not(.raw)").addClass("fadey");      
+    $("section.raw").addClass("fadey");      
   });
 });
 

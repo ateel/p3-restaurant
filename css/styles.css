@@ -20,6 +20,33 @@ header {
 	background: red;
 }
 
+.boxed{
+  display:inline;
+  float: left;
+  margin:0;
+  height:25px;
+  width:15px;
+  background: #000;
+  margin-right: 4px;
+}
+
+.yellow {
+	background: yellow;
+}
+
+.lblue {
+	
+	background: cornflowerblue;
+
+}
+
+.red {
+	background: red;
+}
+
+.green {
+	background: green;
+}
 
 section {
   
@@ -27,6 +54,7 @@ section {
   float: left;
   position: relative;
   margin: 8px;
+
 
 }
 section img {
@@ -60,3 +88,6 @@ nav {
 nav a {
 	margin-right: 20px;
 }
+
+ul li {
+	list-style: none; }
