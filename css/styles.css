@@ -6,3 +6,45 @@ h1 {
 
 	background: red;
 }
+
+
+section {
+  
+  overflow: hidden;
+  float: left;
+  position: relative;
+  margin: 8px;
+
+}
+section img {
+	width:80%;
+}
+
+
+
+section p {
+	width: 80%;
+  background: yellow;
+  position: absolute;
+  bottom: -150px;
+  margin-bottom: 0px;
+  transition: bottom 1s;
+}
+
+section:hover p {
+ bottom: 0px;
+ margin-bottom: 0px;
+
+}
+
+article {
+margin-left: 15px;
+}
+
+nav {
+	margin: 15px;
+}
+
+nav a {
+	margin-right: 20px;
+}
