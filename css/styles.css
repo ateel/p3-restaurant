@@ -97,3 +97,43 @@ nav a {
 ul li {
 	list-style: none; }
 
+
+/*mobile*/
+@media (max-width: 480px){
+
+	.ui.button {
+		font-size: .75rem;
+		margin-bottom: 10px;
+	}
+	.contact {
+		font-size: 8px;
+		position: relative;
+		right: 30px;
+
+	}
+
+	#pricing {
+		position: relative;
+		right: 30px;
+	}
+
+	iframe {
+		position: relative;
+		right: 15px;
+		width: 125px;
+		height: 125px;
+	}
+}
+
+/*tablet*/
+@media (min-width: 768px){
+	
+	.ui.button {
+		font-size: 1rem;
+	}
+
+	iframe {
+		width: 250px;
+		height: 250px;
+	}
+}
